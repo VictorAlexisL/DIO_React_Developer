@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DIO_React_Developer/static/css/main.cdf23aae.css",
+    "main.js": "/DIO_React_Developer/static/js/main.271f1c02.js",
+    "index.html": "/DIO_React_Developer/index.html",
+    "main.cdf23aae.css.map": "/DIO_React_Developer/static/css/main.cdf23aae.css.map",
+    "main.271f1c02.js.map": "/DIO_React_Developer/static/js/main.271f1c02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdf23aae.css",
+    "static/js/main.271f1c02.js"
+  ]
+}
