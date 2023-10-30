@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1D2128;
+  font-family: Inter, Roboto, Arial;
+}
+
+hr {
+  background-color: rgba(229,229,229,0.2);
+  border: 1px solid rgba(229,229,229,0.2);  
+  margin: 2em 0;
+}
+
+a {
+  text-decoration: none;
+}

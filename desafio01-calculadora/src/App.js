@@ -22,7 +22,6 @@ const App = () => {
   }
 
   const handleSumNumbers = () => {
-
     if (firstNumber === '0'){
         setFirstNumber(String(currentNumber));
         setCurrentNumber('0')
@@ -36,7 +35,6 @@ const App = () => {
   }
 
   const handleMinusNumbers = () => {
-
     if (firstNumber === '0'){
         setFirstNumber(String(currentNumber));
         setCurrentNumber('0')
@@ -50,11 +48,10 @@ const App = () => {
   }
 
   const handleMultiplication = () => {
-
     if (firstNumber === '0'){
         setFirstNumber(String(currentNumber));
         setCurrentNumber('0')
-        setOperation('x')
+        setOperation('*')
     } else {
       const multiplication = Number(firstNumber) * Number(currentNumber);
       setCurrentNumber(String(multiplication))
@@ -88,7 +85,7 @@ const App = () => {
       <Content>
         <Input value={currentNumber}/>
         <Row>
-          <Button label="x" onClick={() => handleAddNumber('x')}/>
+          <Button label="x" onClick={handleMultiplication}/>
           <Button label="/" onClick={() => handleAddNumber('/')}/>
           <Button label="c" onClick={handleOnClear}/>
           <Button label="."/>
